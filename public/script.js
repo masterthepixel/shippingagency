@@ -3,17 +3,17 @@ $(document).ready(function () {
         loop: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        slidesPerView: 3,
+        slidesPerView: 1,
         paginationClickable: true,
-        spaceBetween: 20,
+        spaceBetween: 16,
         breakpoints: {
-            1920: {
-                slidesPerView: 3,
-                spaceBetween: 30
+            1366: {
+                slidesPerView: 1,
+                spaceBetween: 16
             },
             1028: {
-                slidesPerView: 2,
-                spaceBetween: 30
+                slidesPerView: 1,
+                spaceBetween: 14
             },
             480: {
                 slidesPerView: 1,
